@@ -1,15 +1,15 @@
-Lambda - Envio de E-mail com Amazon SES
+AWS Lambda - Envio de E-mail com Amazon SES
 
 Objetivo
-Esta função Lambda envia e-mails personalizados usando o Amazon Simple Email Service (SES), com remetente e destinatário sendo o mesmo e-mail verificado, ideal para testes e demonstração.
+Esta função AWS Lambda tem como objetivo enviar e-mails de forma automática utilizando o Amazon Simple Email Service (SES). A função é útil para confirmações de cadastro, notificações ou testes acadêmicos.
 
 ---
 
-Como Funciona
+Funcionamento
 
-A função espera um evento JSON com os seguintes campos:
+A função recebe como entrada um objeto JSON com os seguintes campos:
 
-json
+```json
 {
   "nome": "Guerra",
   "mensagem": "faz o L"
